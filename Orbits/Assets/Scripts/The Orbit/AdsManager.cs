@@ -1,8 +1,9 @@
 ﻿ using System.Collections;
 using UnityEngine;
-using UnityEngine.Advertisements;
+//using UnityEngine.Advertisements;
+using Yodo1.MAS;
 
-public class AdsManager : MonoBehaviour, IUnityAdsListener
+public class AdsManager : MonoBehaviour/*, IUnityAdsListener*/
 {
     public static AdsManager Instance;
 
@@ -16,70 +17,73 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
     void Start()
     {
         Instance = this;
+        
+        Yodo1U3dMas.InitializeSdk();
 
-        Advertisement.AddListener(this);
-        Advertisement.Initialize(gameId, testMode);
+        Yodo1U3dMas.SetBannerAdDelegate((Yodo1U3dAdEvent adEvent, Yodo1U3dAdError error) => {
+            Debug.Log("[Yodo1 Mas] BannerdDelegate:" + adEvent.ToString() + "\n" + error.ToString());
+            switch (adEvent)
+            {
+                case Yodo1U3dAdEvent.AdClosed:
+                    Debug.Log("[Yodo1 Mas] Banner ad has been closed.");
+                    break;
+                case Yodo1U3dAdEvent.AdOpened:
+                    Debug.Log("[Yodo1 Mas] Banner ad has been shown.");
+                    break;
+                case Yodo1U3dAdEvent.AdError:
+                    Debug.Log("[Yodo1 Mas] Banner ad error, " + error.ToString());
+                    break;
+            }
+        });
+
+        Yodo1U3dMas.SetInterstitialAdDelegate((Yodo1U3dAdEvent adEvent, Yodo1U3dAdError error) => {
+            Debug.Log("[Yodo1 Mas] InterstitialAdDelegate:" + adEvent.ToString() + "\n" + error.ToString());
+            switch (adEvent)
+            {
+                case Yodo1U3dAdEvent.AdClosed:
+                    Debug.Log("[Yodo1 Mas] Interstital ad has been closed.");
+                    break;
+                case Yodo1U3dAdEvent.AdOpened:
+                    Debug.Log("[Yodo1 Mas] Interstital ad has been shown.");
+                    break;
+                case Yodo1U3dAdEvent.AdError:
+                    Debug.Log("[Yodo1 Mas] Interstital ad error, " + error.ToString());
+                    break;
+            }
+        });
+
+        
         StartCoroutine(ShowBannerWhenReady());
     }
 
     IEnumerator ShowBannerWhenReady()
     {
-        while (!Advertisement.IsReady(BannerId))
+        while (!Yodo1U3dMas.IsBannerAdLoaded())
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.25f);
         }
-        Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
-        Advertisement.Banner.Show(BannerId);
+        int align = Yodo1U3dBannerAlign.BannerTop /*| Yodo1U3dBannerAlign.BannerHorizontalCenter*/;
+        Yodo1U3dMas.ShowBannerAd(align);
+
+    
     }
 
-    public void ShowInterstitial()
+    public void ShowInterstital()
     {
-        Advertisement.Show();
+        StartCoroutine(ShowInterstitialAd());
     }
 
-    public void ShowRewardedAd()
+    IEnumerator ShowInterstitialAd()
     {
-        if (rewardedReady)
+        while (!Yodo1U3dMas.IsInterstitialAdLoaded())
         {
-            Advertisement.Show(myPlacementId);
+            yield return new WaitForSeconds(0.25f);
         }
-    }
-    public void OnUnityAdsDidFinish(string placementId, ShowResult showResult)
-    {
-        // Define conditional logic for each ad completion status:
-        if (showResult == ShowResult.Finished)
-        {
-            // Reward the user for watching the ad to completion.
-           // UiManager.Instance.ContinueGame();
-        }
-        else if (showResult == ShowResult.Skipped)
-        {
-            //UiManager.Instance.FinishPressed();
-            // Do not reward the user for skipping the ad.
-        }
-        else if (showResult == ShowResult.Failed)
-        {
-            Debug.LogWarning("The ad did not finish due to an error.");
-        }
-        rewardedReady = false;
-    }
 
-    public void OnUnityAdsReady(string placementId)
-    {
-        // If the ready Placement is rewarded, show the ad:
-        if (placementId == myPlacementId)
-        {
-            rewardedReady = true;
-        }
+        Yodo1U3dMas.ShowInterstitialAd();
     }
+ 
 
-    public void OnUnityAdsDidError(string message)
-    {
-        // Log the error.
-    }
+  
 
-    public void OnUnityAdsDidStart(string placementId)
-    {
-        // Optional actions to take when the end-users triggers an ad.
-    }
 }

@@ -24,9 +24,9 @@
 
 public static class GPGSIds
 {
-        public const string leaderboard_medium_best = "CgkI7afhmekOEAIQAg"; // <GPGSID>
-        public const string leaderboard_easy_best = "CgkI7afhmekOEAIQAQ"; // <GPGSID>
-        public const string leaderboard_hard_best = "CgkI7afhmekOEAIQAw"; // <GPGSID>
+        public const string leaderboard_medium_best = "CgkI6d2WqfEMEAIQAg"; // <GPGSID>
+        public const string leaderboard_easy_best = "CgkI6d2WqfEMEAIQAQ"; // <GPGSID>
+        public const string leaderboard_hard_best = "CgkI6d2WqfEMEAIQAw"; // <GPGSID>
 
 }
 

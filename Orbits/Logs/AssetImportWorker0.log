@@ -1,0 +1,391 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Apex/Documents/StudioGameProjects/__ORBITS/Orbits
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52402
+Successfully changed project path to: C:/Users/Apex/Documents/StudioGameProjects/__ORBITS/Orbits
+C:/Users/Apex/Documents/StudioGameProjects/__ORBITS/Orbits
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Apex/Documents/StudioGameProjects/__ORBITS/Orbits/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6589
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001616 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:36)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 36)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:103)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 103)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2774 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 172 unused Assets to reduce memory usage. Loaded Objects now: 3070.
+Total: 2.157100 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.706100 ms  DeleteObjects: 0.089200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ASTRAL PROJECTION MUSIC_ lucid dreaming binaural beats _ Deep Sleep Meditation Music (mp3cut.net).mp3
+  artifactKey: Guid(5773980a31c89fe42ae2283bb27fb748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTRAL PROJECTION MUSIC_ lucid dreaming binaural beats _ Deep Sleep Meditation Music (mp3cut.net).mp3 using Guid(5773980a31c89fe42ae2283bb27fb748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ff889d3c37fddd212652ea614cb51') in 0.090840 seconds
+  Import took 0.095411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/icons8-leaderboard-64.png
+  artifactKey: Guid(62f636636a886d44f9a97975bcbfcff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons8-leaderboard-64.png using Guid(62f636636a886d44f9a97975bcbfcff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de44152a0a2c66e30da4979c82a036f') in 0.037797 seconds
+  Import took 0.041220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/icons8-expand-arrow-50.png
+  artifactKey: Guid(ae1d9264362a7d649b3b5302000ac88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons8-expand-arrow-50.png using Guid(ae1d9264362a7d649b3b5302000ac88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1991defc2d244bbee7b169437c8c33') in 0.009737 seconds
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/unnamed (2).jpg
+  artifactKey: Guid(38b857c5e2cf2184c86144b9fba9b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unnamed (2).jpg using Guid(38b857c5e2cf2184c86144b9fba9b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8686ff810a36af2c13386cb5d81573') in 0.015379 seconds
+  Import took 0.018847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/TunePocket-Game-Over-Sound-1-Preview (mp3cut.net).wav
+  artifactKey: Guid(baba0b4ec102c37468573a403003c7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TunePocket-Game-Over-Sound-1-Preview (mp3cut.net).wav using Guid(baba0b4ec102c37468573a403003c7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b014ca9a5ec79173268aa131e0902') in 0.011680 seconds
+  Import took 0.015560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/icons8-pause-30.png
+  artifactKey: Guid(15cad9d7bdd485c44ace9c825a0bda5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons8-pause-30.png using Guid(15cad9d7bdd485c44ace9c825a0bda5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144791754f8b2485b2f8fa672ad94984') in 0.009046 seconds
+  Import took 0.012483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/icons8-share-60.png
+  artifactKey: Guid(c4d7e1b815fb19b4b8aae11a3bbb6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons8-share-60.png using Guid(c4d7e1b815fb19b4b8aae11a3bbb6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cb248c83c55000f56814c8bd7ab21a') in 0.009191 seconds
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/My Logo.png
+  artifactKey: Guid(918840cd7d72eac4fb7d0c87fe34bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Logo.png using Guid(918840cd7d72eac4fb7d0c87fe34bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e2dcb17eb7fa5deccbe86d80235430') in 0.012806 seconds
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f43d5392771bfc9a68e9fc4bb562da') in 0.010449 seconds
+  Import took 0.014543 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:36)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 36)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:103)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 103)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.9 MB.
+System memory in use after: 132.2 MB.
+
+Unloading 167 unused Assets to reduce memory usage. Loaded Objects now: 3094.
+Total: 2.238700 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.813700 ms  DeleteObjects: 0.069300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:36)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 36)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:103)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 103)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 132.2 MB.
+
+Unloading 167 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 2.383400 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.929100 ms  DeleteObjects: 0.074800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 36.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 2.321200 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.861300 ms  DeleteObjects: 0.064800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:36)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 36)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:103)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 103)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 132.2 MB.
+
+Unloading 167 unused Assets to reduce memory usage. Loaded Objects now: 3100.
+Total: 2.406700 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.926700 ms  DeleteObjects: 0.072900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 36.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 3100.
+Total: 2.377000 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.929700 ms  DeleteObjects: 0.069800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 578.958410 seconds.
+  path: Assets/Prefabs/Electron.prefab
+  artifactKey: Guid(6d47569b34db2854ebdaa3650b4399ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electron.prefab using Guid(6d47569b34db2854ebdaa3650b4399ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd619e3efd88e786ae3795014b9e87cc2') in 0.541310 seconds
+  Import took 0.545933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(15a9a2078fa48f147a35eb18c55d79ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(15a9a2078fa48f147a35eb18c55d79ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862a389b5f950d0ca65829e129308f92') in 0.011780 seconds
+  Import took 0.015319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Nutron.prefab
+  artifactKey: Guid(2bdc62dd1e5e0dc41930c5784320f0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nutron.prefab using Guid(2bdc62dd1e5e0dc41930c5784320f0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbf4429d22743b4ae90f2033a1862bd') in 0.181441 seconds
+  Import took 0.185009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.902765 seconds.
+  path: Assets/Prefabs/_____RenderEffects_____.prefab
+  artifactKey: Guid(79b049cb53fe63049ab63dff52028b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/_____RenderEffects_____.prefab using Guid(79b049cb53fe63049ab63dff52028b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b849f08a38bc39629c58d23d862a0aa') in 0.010623 seconds
+  Import took 0.014805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003561 seconds.
+  path: Assets/Prefabs/_____RenderEffects_____.prefab
+  artifactKey: Guid(79b049cb53fe63049ab63dff52028b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/_____RenderEffects_____.prefab using Guid(79b049cb53fe63049ab63dff52028b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b849f08a38bc39629c58d23d862a0aa') in 0.003748 seconds
+  Import took 0.006601 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 34.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 2.951300 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.513900 ms  DeleteObjects: 0.060800 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 36.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 3.422100 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.891500 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

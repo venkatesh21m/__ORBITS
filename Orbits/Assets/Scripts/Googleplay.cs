@@ -39,7 +39,7 @@ public class Googleplay : MonoBehaviour
 
             }
         });
-
+        LogIn();
         // PASTE THESE LINES AT THE END OF Start()
         // Try silent sign-in (second parameter is isSilent)
         //PlayGamesPlatform.Instance.Authenticate(SignInCallback, true);
@@ -53,7 +53,7 @@ public class Googleplay : MonoBehaviour
     /// </summary>
     public void LogIn()
     {
-        text.text = "LogIn pressed";
+        text.text = "LogIn ----- pressed";
 
         if (!PlayGamesPlatform.Instance.localUser.authenticated)
         {
@@ -83,12 +83,12 @@ public class Googleplay : MonoBehaviour
             Debug.Log("(Lollygagger) Signed in!");
 
             // Change sign-in button text
-            text.text = "login success";
+            text.text = "login -------------- success";
             // Show the user's name
         }
         else
         {
-            text.text = "Login failed";
+            text.text = "Login------- failed";
             // Show failure message
         }
     }

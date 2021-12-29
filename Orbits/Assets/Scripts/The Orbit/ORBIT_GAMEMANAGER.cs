@@ -68,9 +68,9 @@ namespace THEORBIT
                     break;
                 case GameState.GameOver:
                     GameOverCount++;
-                    if (GameOverCount % 5 == 0)
+                    if (GameOverCount % 2 == 0)
                     {
-                        AdsManager.Instance.ShowRewardedAd();
+                        AdsManager.Instance.ShowInterstital();
                     }
                     switch (currentDifficulty)
                     {
@@ -93,7 +93,6 @@ namespace THEORBIT
                             {
                                 ORBIT_UIMANAGER.Instance.HardBest = Score;
                                 GetComponent<Googleplay>().OnAddScoreToHardLeaderBorad(Score);
-
                             }
                             break;
                         default:
